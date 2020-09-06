@@ -29,9 +29,6 @@ export default function Navbar(){
                         </p>
                         <div className="flex-row margin-width center-tech">
                             <p className="medium-font blue-box-shadow padding-width" >React</p>
-                            <p className="medium-font orange-box-shadow margin-width padding-width" >HTML5</p>
-                            <p className="medium-font blue-box-shadow margin-width padding-width" >CSS3</p>
-                            <p className="medium-font yellow-box-shadow margin-width padding-width" >JavaScript</p>
                             <p className="medium-font pink-box-shadow margin-width padding-width" >Sass</p>
                             <p className="medium-font violet-box-shadow margin-width padding-width" >Bootstrap</p>
                         </div>
@@ -59,9 +56,6 @@ export default function Navbar(){
                         </p>
                         <div className="flex-row margin-width center-tech">
                             <p className="medium-font blue-box-shadow padding-width">jQuery</p>
-                            <p className="medium-font orange-box-shadow margin-width padding-width">HTML5</p>
-                            <p className="medium-font blue-box-shadow margin-width padding-width">CSS3</p>
-                            <p className="medium-font yellow-box-shadow margin-width padding-width">JavaScript</p>
                             <p className="medium-font pink-box-shadow margin-width padding-width">Sass</p>
                             <p className="medium-font violet-box-shadow margin-width padding-width">Bootstrap</p>
                         </div>
@@ -89,8 +83,6 @@ export default function Navbar(){
                         </p>
                         <div className="flex-row margin-width center-tech">
                             <p className="medium-font blue-box-shadow padding-width">React</p>
-                            <p className="medium-font orange-box-shadow margin-width padding-width">HTML5</p>
-                            <p className="medium-font yellow-box-shadow margin-width padding-width">JavaScript</p>
                             <p className="medium-font pink-box-shadow margin-width padding-width">Sass</p>
                             <p className="medium-font blue-box-shadow margin-width padding-width">jQuery</p>
                         </div>
