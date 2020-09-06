@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React from "react";
 import markdown from "./assets/markdown_previewer.JPG";
 import random_quote from "./assets/random_quote.jpg";
 import pomodoro_clock from "./assets/pomodoro_clock.jpg";
