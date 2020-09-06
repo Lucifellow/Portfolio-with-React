@@ -22,7 +22,7 @@ export default function Navbar(props){
                     </a>
                 </li>
                 <li className="nav-item active">
-                    <a className="nav-link blue-anim bold" href="https://drive.google.com/file/d/1nx6T8oqzMELWnqnECSNqwY2awhCcTxCP/view?usp=sharing" target="_blank">
+                    <a className="nav-link blue-anim bold" href="https://drive.google.com/file/d/10yNulXPMnJf0FeRh-bkS78-Y0BczAA-1/view?usp=sharing" target="_blank">
                         Resume
                     </a></li>
                 <li className="nav-item active">
