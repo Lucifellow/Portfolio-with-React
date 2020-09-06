@@ -1,0 +1,372 @@
+
+.contactimg{
+	width:4vw;
+    height:auto;
+}
+
+.margin-left-contact-logo{
+    margin-left:4vw;
+}
+
+.img-anim:hover{
+    animation-name:lighter-img;
+    animation-duration:300ms;
+    animation-fill-mode:forwards;
+}
+
+@keyframes lighter-img{
+    100%{
+        opacity:0.6;
+    }
+}
+
+#contact-container{
+    position:absolute;
+    left:0;
+    right:0;
+    margin-top:4vw;
+    color:Black;
+    height:22vw;
+    margin-top:30vw;
+  }
+
+#contact-header{
+    text-align: center;
+    margin-top:2vw;
+    padding:1vw;
+    border:2px solid #5691c8;
+    border-radius:12px;
+    margin-left: 40vw;
+    margin-right:40vw;
+}
+
+#contact-desc{
+    text-align:center;
+    font-size:larger;
+    margin-top:3vw;
+    margin-left:30vw;
+    margin-right:30vw;
+
+}
+
+#contact-logo{
+    margin-top:2vw;
+    margin-left:35vw;
+}
+
+@media (min-width:2100px){
+    
+    #contact-container{
+        height:24vw;
+    }
+    #contact-header{
+        margin-top:1vw;
+
+    }
+    #contact-desc{
+        font-size:xx-large;
+    }
+
+    #contact-logo{
+        margin-top:3vw;
+    }
+
+}
+
+@media (min-width:1450px) and (max-width:1750px){
+    #contact-container{
+        margin-top:35vw;
+        height:24vw;
+    }
+}
+
+@media (min-width:1230px) and (max-width:1449px) {
+    #contact-container{
+        margin-top:42vw;
+        height:28vw;
+    }
+}
+
+
+@media (min-width:1050px) and (max-width:1229px) {
+    #contact-container{
+        margin-top:45vw;
+        height:34vw;
+    }
+
+    #contact-logo{
+        margin-top:4vw;
+        margin-left:35vw;
+    }
+}
+
+@media (min-width:900px) and (max-width:1049px) {
+
+    .contactimg{
+        width:6vw;
+        height:auto;
+    }
+
+    #contact-container{
+        margin-top:53vw;
+        height:40vw;
+    }
+
+    #contact-logo{
+        margin-top:4vw;
+        margin-left:30vw;
+    }
+
+}
+
+@media (min-width:800px) and (max-width:899px) {
+    .contactimg{
+        width:6vw;
+        height:auto;
+    }
+
+    #contact-container{
+        margin-top:59vw;
+        height:45vw;
+    }
+
+    #contact-logo{
+        margin-top:4vw;
+        margin-left:30vw;
+    }
+
+}
+
+@media (min-width:680px) and (max-width:799px) {
+    .contactimg{
+        width:7vw;
+        height:auto;
+    }
+
+    #contact-container{
+        margin-top:73vw;
+        height:58vw;
+    }
+
+    #contact-header{
+        padding:2vw;
+        margin-left: 30vw;
+        margin-right:30vw;
+    }
+
+    #contact-logo{
+        margin-top:6vw;
+        margin-left:27vw;
+    }
+
+    #contact-desc{
+        margin-top:6vw;
+    }
+}
+
+
+@media (min-width:580px) and (max-width:679px) {
+    .contactimg{
+        width:7vw;
+        height:auto;
+    }
+
+    .margin-left-contact-logo{
+        margin-left:7vw;
+    }
+
+    #contact-container{
+        margin-top:73vw;
+        height:59vw;
+    }
+
+    #contact-header{
+        padding:2vw;
+        margin-left: 30vw;
+        margin-right:30vw;
+    }
+
+    #contact-logo{
+        margin-top:6vw;
+        margin-left:24vw;
+    }
+
+    #contact-desc{
+        margin-top:6vw;
+        text-align:justify;
+        margin-left:15vw;
+        margin-right:15vw;
+    }
+} 
+
+@media (min-width:480px) and (max-width:579px){
+    .contactimg{
+        width:10vw;
+        height:auto;
+    }
+
+    .margin-left-contact-logo{
+        margin-left:7vw;
+    }
+
+    #contact-container{
+        margin-top:85vw;
+        height:70vw;
+    }
+
+    #contact-header{
+        padding:2vw;
+        margin-left: 25vw;
+        margin-right:25vw;
+    }
+
+    #contact-logo{
+        margin-top:9vw;
+        margin-left:18vw;
+    }
+
+    #contact-desc{
+        margin-top:9vw;
+        text-align:justify;
+        margin-left:12vw;
+        margin-right:12vw;
+    }
+}
+
+
+@media (min-width:410px) and (max-width:479px){
+    .contactimg{
+        width:12vw;
+        height:auto;
+    }
+
+    .margin-left-contact-logo{
+        margin-left:7vw;
+    }
+
+    #contact-container{
+        margin-top:115vw;
+        height:93vw;
+    }
+
+    #contact-header{
+        padding:3vw;
+        margin-left: 20vw;
+        margin-right:20vw;
+    }
+
+    #contact-logo{
+        margin-top:11vw;
+        margin-left:13vw;
+    }
+
+    #contact-desc{
+        margin-top:9vw;
+        text-align:justify;
+        margin-left:5vw;
+        margin-right:5vw;
+    }
+}
+
+@media (min-width:350px) and (max-width:409px){
+    .contactimg{
+        width:15vw;
+        height:auto;
+    }
+
+    .margin-left-contact-logo{
+        margin-left:7vw;
+    }
+
+    #contact-container{
+        margin-top:130vw;
+        height:107vw;
+    }
+
+    #contact-header{
+        padding:4vw;
+        margin-left: 15vw;
+        margin-right:15vw;
+    }
+
+    #contact-logo{
+        margin-top:11vw;
+        margin-left:7vw;
+    }
+
+    #contact-desc{
+        margin-top:9vw;
+        text-align:justify;
+        margin-left:5vw;
+        margin-right:5vw;
+    }
+}
+
+
+@media (min-width:310px) and (max-width:349px) {
+    .contactimg{
+        width:15vw;
+        height:auto;
+    }
+
+    .margin-left-contact-logo{
+        margin-left:7vw;
+    }
+
+    #contact-container{
+        margin-top:159vw;
+        height:120vw;
+    }
+
+    #contact-header{
+        padding:4vw;
+        margin-left: 15vw;
+        margin-right:15vw;
+    }
+
+    #contact-logo{
+        margin-top:11vw;
+        margin-left:7vw;
+    }
+
+    #contact-desc{
+        margin-top:9vw;
+        text-align:justify;
+        margin-left:8vw;
+        margin-right:8vw;
+    }
+}
+
+@media (max-width:309px) {
+    .contactimg{
+        width:15vw;
+        height:auto;
+    }
+
+    .margin-left-contact-logo{
+        margin-left:7vw;
+    }
+
+    #contact-container{
+        margin-top:179vw;
+        height:150vw;
+    }
+
+    #contact-header{
+        padding:4vw;
+        margin-left: 15vw;
+        margin-right:15vw;
+    }
+
+    #contact-logo{
+        margin-top:11vw;
+        margin-left:7vw;
+    }
+
+    #contact-desc{
+        margin-top:9vw;
+        text-align:justify;
+        margin-left:8vw;
+        margin-right:8vw;
+    }
+}
