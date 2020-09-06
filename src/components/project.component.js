@@ -24,8 +24,8 @@ export default function Navbar(){
                 <div className="flex-row">
                     <img id="markdown_img" className="project-img" src={markdown}/>
                     <div id="column-view">
-                        <p id="markdown-desc" className="description-adjust">In this project, users can edit their markup in the editor on left 
-                        and see live preview in the previewer on right. The editor text demonstrates how to use syntax for markdown with its live preview.
+                        <p id="markdown-desc" className="description-adjust">In this project, users can edit their markup in the editor on the left 
+                        and see live preview in the previewer on the right. The editor text demonstrates how to use syntax for markdown with its live preview.
                         </p>
                         <div className="flex-row margin-width center-tech">
                             <p className="medium-font blue-box-shadow padding-width" >React</p>
@@ -54,8 +54,8 @@ export default function Navbar(){
                     <img id="quote_img" className="project-img" src={random_quote}/>
                     <div id="column-view">
                         <p id="quote-desc" className="description-adjust">
-                            Generate random quotes with a unique theme. Get new quote by clicking on the New Quote button. 
-                            You can tweet the displayed quote with the name of author by clicking on Tweet button.  
+                            Generates random quotes with a unique theme. Get a new quote by clicking on the New Quote button. 
+                            You can tweet the displayed quote with the name of the author by clicking on the Tweet button.  
                         </p>
                         <div className="flex-row margin-width center-tech">
                             <p className="medium-font blue-box-shadow padding-width">jQuery</p>
@@ -84,8 +84,8 @@ export default function Navbar(){
                     <img id="clock_img" className="project-img" src={pomodoro_clock}/>
                     <div id="column-view">
                         <p id="clock-desc" className="description-adjust">
-                          In pomodoro clock, users can set minutes to work and take break. After set amount of minutes have passed on doing work, it will start an alarm to remind you to take break and vice versa.
-                          You can pause and play the time by pressing middle button. The reset button will stop the timer if it is playing and reset all values to default.   
+                        Users can set the amount of time for work and for break. After the set amount of time has passed while working, the clock will start an alarm to remind you to take break and vice versa.
+                          You can pause and play the time by pressing the play/pause button. The reset button will stop the timer if it is playing and reset all values to default.   
                         </p>
                         <div className="flex-row margin-width center-tech">
                             <p className="medium-font blue-box-shadow padding-width">React</p>
@@ -164,10 +164,10 @@ export default function Navbar(){
                     <img id="exercise_img" className="project-img" src={exercise_tracker}/>
                     <div id="column-view">
                         <p id="exercise-desc" className="description-adjust">
-                            New Users can visit create users link and type their username and click create user. Users can visit
-                            Create Exercise Log and select their username from drop-down list and fill in information of their exercise. Updated list
-                            of exercises for new user can be seen by visiting Exercises link. Users can edit their exercise or delete it
-                            from the same page by clicking on the respective button. It will take some time to load.
+                            New Users can visit "Create Users" link and type their username to create a new user. Users can visit
+                            "Create Exercise Log" and select their username from drop-down list to fill in information of their exercise. Updated list
+                            of exercises for new user can be seen by visiting "Exercises" link. Users can edit their exercise or delete it
+                            from the same page by clicking on the respective button.
                         </p>
                         <div className="flex-row margin-width center-tech">
                             <p className="medium-font blue-box-shadow padding-width" >React</p>
@@ -194,7 +194,7 @@ export default function Navbar(){
                     <img id="heat_img" className="project-img" src={heat_map}/>
                     <div id="column-view">
                         <p id="heat-desc" className="description-adjust">
-                            A heat map that shows temperature variance from 1753 to 2015 with base temperature 8.66 °C. It fetches data from api for global
+                            A heat map that shows the temperature variance from 1753 to 2015 with a base temperature of 8.66 °C. It fetches data from api for global
                             temperature in json format. The X-axis represents years and the Y-axis represents months. Hover over any data to get more information
                             from api with the help of tooltip.
                         </p>
@@ -223,8 +223,8 @@ export default function Navbar(){
                     <img id="heat_img" className="project-img" src={choropleth_map}/>
                     <div id="column-view">
                         <p id="heat-desc" className="description-adjust">
-                            A choropleth map that shows percentage of adults in USA 25 years or older with a bachelors or higher degree. 
-                            It fetches data from two apis, one for USA county topographic location and another for education in each county for USA
+                            A choropleth map that shows the percentage of adults in the USA with ages 25 years or above who have a bachelors or a higher degree. 
+                            It fetches data from two apis, one for the USA county topographic location and another for education in each county of USA
                              in json format. Hover over any data to get more information.
                         </p>
                         <div className="flex-row margin-width center-tech">
@@ -280,7 +280,7 @@ export default function Navbar(){
                     <img id="scatter_img" className="project-img" src={scatter_plot}/>
                     <div id="column-view">
                         <p id="scatter-desc" className="description-adjust">
-                            This scatter plot represents bicycle racers doping in professional races to improve their performance. The x-axis
+                            This scatter plot depicts the number of bikers doping in professional races to improve their performance. The x-axis
                             shows years and the y-axis shows time taken by bikers to finish the race. Red dot represents bikers who are doping
                             and green dot represents bikers without doping.
                         </p>

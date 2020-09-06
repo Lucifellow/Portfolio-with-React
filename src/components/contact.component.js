@@ -9,7 +9,7 @@ export default function Contact(props){
                 <h2 id="contact-header">Contact</h2>
                 <div id="contact-div-inner">
                     <p id="contact-desc">
-                        If you have an opportunity for me, or want to collaborate on a project please feel free to contact me on 
+                        If you have an opportunity for me or want to collaborate on a project, please feel free to contact me on 
                             LinkedIn, Github, CodePen or Email:
                     </p>
                     
