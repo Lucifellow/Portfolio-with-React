@@ -3,8 +3,8 @@ import markdown from "./assets/markdown_previewer.JPG";
 import random_quote from "./assets/random_quote.jpg";
 import pomodoro_clock from "./assets/pomodoro_clock.jpg";
 import landing_page from "./assets/landing_page.jpg";
-import survey_page from "./assets/survey_page.jpg";
 import exercise_tracker from "./assets/exercise_tracker.jpg";
+import corona_tracker from "./assets/corona-tracker.jpg";
 import heat_map from "./assets/heat_map.jpg";
 import choropleth_map from "./assets/choropleth.jpg";
 import bar_chart from "./assets/bar-chart.jpg"
@@ -18,6 +18,34 @@ export default function Navbar(){
         <section id="projects-section">
         <div id="project-container">
             <h2 id="project-head" className="center-text" >Projects</h2>
+
+            <div id="corona-container" className="project-inner-big-container">
+                <h3 id="corona_header" className="center-text">COVID-19 Tracker</h3>
+                <div className="flex-row">
+                    <img id="corona_img" className="project-img" src={corona_tracker}/>
+                    <div id="column-view">
+                        <p id="corona-desc" className="description-adjust">
+                        A corona virus tracker that displays latest information of infection cases, recovery, deaths, vaccine trial, and therapeutic trial data. 
+                        Users can view global data or data of individual country on map. It displays sorted data of live cases by country and a line graph showing
+                        worldwide cases, recovered cases, deaths in last 160 days, vaccine and therapeutic trial. API used for getting COVID-19 data is disease.sh.   
+                        </p>
+                        <div className="flex-row margin-width center-tech">
+                            <p className="medium-font blue-box-shadow padding-width" >React/Hooks</p>
+
+                            <p className="medium-font violet-box-shadow margin-width padding-width" >CSS</p>                        
+                        </div>
+                        <div className="flex-row margin-width center-btns">
+                            <a className="btn btn-primary top-margin-link " href="https://lucifellow.github.io/COVID-19-Tracker/" target="_blank" rel="noopener noreferrer">
+                                View live website &nbsp;<i className="fas fa-external-link-square-alt"></i>
+                            </a>
+                            <a className="btn btn-success top-margin-link btn-margin" href="https://github.com/Lucifellow/COVID-19-Tracker" target="_blank" rel="noopener noreferrer">
+                                View Source &nbsp; <i className="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr />
 
             <div id="markdown-container" className="project-inner-container">
                 <h3 id="markdown_header" className="center-text">Markdown Previewer</h3>
@@ -33,10 +61,10 @@ export default function Navbar(){
                             <p className="medium-font violet-box-shadow margin-width padding-width" >Bootstrap</p>
                         </div>
                         <div className="flex-row margin-width center-btns">
-                            <a className="btn btn-primary top-margin-link " href="https://lucifellow.github.io/Markdown-Preview/" target="_blank">
+                            <a className="btn btn-primary top-margin-link " href="https://lucifellow.github.io/Markdown-Preview/" target="_blank" rel="noopener noreferrer">
                                 View live website &nbsp;<i className="fas fa-external-link-square-alt"></i>
                             </a>
-                            <a className="btn btn-success top-margin-link btn-margin" href="https://github.com/Lucifellow/Markdown-Preview" target="_blank">
+                            <a className="btn btn-success top-margin-link btn-margin" href="https://github.com/Lucifellow/Markdown-Preview" target="_blank" rel="noopener noreferrer">
                                 View Source &nbsp; <i className="fab fa-github"></i>
                             </a>
                         </div>
@@ -60,10 +88,10 @@ export default function Navbar(){
                             <p className="medium-font violet-box-shadow margin-width padding-width">Bootstrap</p>
                         </div>
                         <div className="flex-row margin-width center-btns">
-                            <a className="btn btn-primary top-margin-link " href="https://lucifellow.github.io/Random-Quote-Generator/" target="_blank">
+                            <a className="btn btn-primary top-margin-link " href="https://lucifellow.github.io/Random-Quote-Generator/" target="_blank" rel="noopener noreferrer">
                                 View live website &nbsp;<i className="fas fa-external-link-square-alt"></i>
                             </a>
-                            <a className="btn btn-success top-margin-link btn-margin" href="https://github.com/Lucifellow/Random-Quote-Generator" target="_blank">
+                            <a className="btn btn-success top-margin-link btn-margin" href="https://github.com/Lucifellow/Random-Quote-Generator" target="_blank" rel="noopener noreferrer">
                                 View Source &nbsp; <i className="fab fa-github"></i>
                             </a>
                         </div>
@@ -87,10 +115,10 @@ export default function Navbar(){
                             <p className="medium-font blue-box-shadow margin-width padding-width">jQuery</p>
                         </div>
                         <div className="flex-row margin-width center-btns">
-                            <a className="btn btn-primary top-margin-link " href="https://lucifellow.github.io/Pomodoro-Clock/" target="_blank">
+                            <a className="btn btn-primary top-margin-link " href="https://lucifellow.github.io/Pomodoro-Clock/" target="_blank" rel="noopener noreferrer">
                                 View live website &nbsp;<i className="fas fa-external-link-square-alt"></i>
                             </a>
-                            <a className="btn btn-success top-margin-link btn-margin" href="https://github.com/Lucifellow/Pomodoro-Clock" target="_blank">
+                            <a className="btn btn-success top-margin-link btn-margin" href="https://github.com/Lucifellow/Pomodoro-Clock" target="_blank" rel="noopener noreferrer">
                                 View Source &nbsp; <i className="fab fa-github"></i>
                             </a>
                         </div>
@@ -113,35 +141,10 @@ export default function Navbar(){
                             <p className="medium-font blue-box-shadow margin-width padding-width">CSS3</p>
                         </div>
                         <div className="flex-row margin-width center-btns">
-                            <a className="btn btn-primary top-margin-link " href="https://lucifellow.github.io/Product-landing-page/" target="_blank">
+                            <a className="btn btn-primary top-margin-link " href="https://lucifellow.github.io/Product-landing-page/" target="_blank" rel="noopener noreferrer">
                                 View live website &nbsp;<i className="fas fa-external-link-square-alt"></i>
                             </a>
-                            <a className="btn btn-success top-margin-link btn-margin" href="https://github.com/Lucifellow/Product-landing-page" target="_blank">
-                                View Source &nbsp; <i className="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <hr />
-
-            <div id="survey-container" className="project-inner-container">
-                <h3 id="survey_header" className="center-text">Survey Page</h3>
-                <div className="flex-row">
-                    <img id="survey_img" className="project-img" src={survey_page}/>
-                    <div id="column-view">
-                        <p id="survey-desc" className="description-adjust">
-                           A survey form to get feedback from users about a service or product.
-                        </p>
-                        <div className="flex-row margin-width top-margin-link center-tech">
-                            <p className="medium-font orange-box-shadow padding-width" >HTML5</p>
-                            <p className="medium-font blue-box-shadow margin-width padding-width">CSS3</p>
-                        </div>
-                        <div className="flex-row margin-width center-btns">
-                            <a className="btn btn-primary top-margin-link " href="https://lucifellow.github.io/Survey-Form/" target="_blank">
-                                View live website &nbsp;<i className="fas fa-external-link-square-alt"></i>
-                            </a>
-                            <a className="btn btn-success top-margin-link btn-margin" href="https://github.com/Lucifellow/Survey-Form" target="_blank">
+                            <a className="btn btn-success top-margin-link btn-margin" href="https://github.com/Lucifellow/Product-landing-page" target="_blank" rel="noopener noreferrer">
                                 View Source &nbsp; <i className="fab fa-github"></i>
                             </a>
                         </div>
@@ -168,10 +171,10 @@ export default function Navbar(){
                             <p className="medium-font mongo-green-box-shadow margin-width padding-width">MongoDB/Mongoose</p>                         
                         </div>
                         <div className="flex-row margin-width center-btns">
-                            <a className="btn btn-primary top-margin-link " href="https://exercise-tracker-full-stack.exercisetracker.repl.co/" target="_blank">
+                            <a className="btn btn-primary top-margin-link " href="https://exercise-tracker-full-stack.exercisetracker.repl.co/" target="_blank" rel="noopener noreferrer">
                                 View live website &nbsp;<i className="fas fa-external-link-square-alt"></i>
                             </a>
-                            <a className="btn btn-success top-margin-link btn-margin" href="https://github.com/Lucifellow/Exercise-Tracker-Full-Stack" target="_blank">
+                            <a className="btn btn-success top-margin-link btn-margin" href="https://github.com/Lucifellow/Exercise-Tracker-Full-Stack" target="_blank" rel="noopener noreferrer">
                                 View Source &nbsp; <i className="fab fa-github"></i>
                             </a>
                         </div>
@@ -197,10 +200,10 @@ export default function Navbar(){
                             <p className="medium-font yellow-box-shadow margin-width padding-width">JavaScript</p>
                         </div>
                         <div className="flex-row margin-width center-btns">
-                            <a className="btn btn-primary top-margin-link " href="https://lucifellow.github.io/D3-Heat-Map/" target="_blank">
+                            <a className="btn btn-primary top-margin-link " href="https://lucifellow.github.io/D3-Heat-Map/" target="_blank" rel="noopener noreferrer">
                                 View live website &nbsp;<i className="fas fa-external-link-square-alt"></i>
                             </a>
-                            <a className="btn btn-success top-margin-link btn-margin" href="https://github.com/Lucifellow/D3-Heat-Map" target="_blank">
+                            <a className="btn btn-success top-margin-link btn-margin" href="https://github.com/Lucifellow/D3-Heat-Map" target="_blank" rel="noopener noreferrer">
                                 View Source &nbsp; <i className="fab fa-github"></i>
                             </a>
                         </div>
@@ -226,10 +229,10 @@ export default function Navbar(){
                             <p className="medium-font yellow-box-shadow margin-width padding-width">JavaScript</p>
                         </div>
                         <div className="flex-row margin-width center-btns">
-                            <a className="btn btn-primary top-margin-link " href="https://lucifellow.github.io/D3-Choropleth-map/" target="_blank">
+                            <a className="btn btn-primary top-margin-link " href="https://lucifellow.github.io/D3-Choropleth-map/" target="_blank" rel="noopener noreferrer">
                                 View live website &nbsp;<i className="fas fa-external-link-square-alt"></i>
                             </a>
-                            <a className="btn btn-success top-margin-link btn-margin" href="https://github.com/Lucifellow/D3-Choropleth-map" target="_blank">
+                            <a className="btn btn-success top-margin-link btn-margin" href="https://github.com/Lucifellow/D3-Choropleth-map" target="_blank" rel="noopener noreferrer">
                                 View Source &nbsp; <i className="fab fa-github"></i>
                             </a>
                         </div>
@@ -254,10 +257,10 @@ export default function Navbar(){
                             <p className="medium-font yellow-box-shadow margin-width padding-width">JavaScript</p>
                         </div>
                         <div className="flex-row margin-width center-btns">
-                            <a className="btn btn-primary top-margin-link " href="https://lucifellow.github.io/D3-Bar-Chart/" target="_blank">
+                            <a className="btn btn-primary top-margin-link " href="https://lucifellow.github.io/D3-Bar-Chart/" target="_blank" rel="noopener noreferrer">
                                 View live website &nbsp;<i className="fas fa-external-link-square-alt"></i>
                             </a>
-                            <a className="btn btn-success top-margin-link btn-margin" href="https://github.com/Lucifellow/D3-Bar-Chart" target="_blank">
+                            <a className="btn btn-success top-margin-link btn-margin" href="https://github.com/Lucifellow/D3-Bar-Chart" target="_blank" rel="noopener noreferrer">
                                 View Source &nbsp; <i className="fab fa-github"></i>
                             </a>
                         </div>
@@ -283,10 +286,10 @@ export default function Navbar(){
                             <p className="medium-font yellow-box-shadow margin-width padding-width">JavaScript</p>
                         </div>
                         <div className="flex-row margin-width center-btns">
-                            <a className="btn btn-primary top-margin-link " href="https://lucifellow.github.io/D3-Scatter-Plot/" target="_blank">
+                            <a className="btn btn-primary top-margin-link " href="https://lucifellow.github.io/D3-Scatter-Plot/" target="_blank" rel="noopener noreferrer">
                                 View live website &nbsp;<i className="fas fa-external-link-square-alt"></i>
                             </a>
-                            <a className="btn btn-success top-margin-link btn-margin" href="https://github.com/Lucifellow/D3-Scatter-Plot" target="_blank">
+                            <a className="btn btn-success top-margin-link btn-margin" href="https://github.com/Lucifellow/D3-Scatter-Plot" target="_blank" rel="noopener noreferrer">
                                 View Source &nbsp; <i className="fab fa-github"></i>
                             </a>
                         </div>
