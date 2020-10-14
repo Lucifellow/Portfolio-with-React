@@ -8,7 +8,7 @@ export default function Navbar(props){
     return(
         <div id="navbar">
         <nav id="main-nav"className="navbar navbar-expand-lg navbar-light">
-            <a id="name"className="navbar-brand blue-anim" href="#"><img id="logo"className="border-radius" src={logo}/> &nbsp; Hrishikesh Vyas</a>
+            <a id="name"className="navbar-brand blue-anim" href="#home-section"><img id="logo"className="border-radius" alt="logo" src={logo}/> &nbsp; Hrishikesh Vyas</a>
             <div id="hamburger-div">
                 <button className="navbar-toggler navbar-light bg-light border border-dark " type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -22,7 +22,7 @@ export default function Navbar(props){
                     </a>
                 </li>
                 <li className="nav-item active">
-                    <a className="nav-link blue-anim bold" href="https://drive.google.com/file/d/10yNulXPMnJf0FeRh-bkS78-Y0BczAA-1/view?usp=sharing" target="_blank">
+                    <a className="nav-link blue-anim bold" href="https://drive.google.com/file/d/10yNulXPMnJf0FeRh-bkS78-Y0BczAA-1/view?usp=sharing" rel="noopener noreferrer" target="_blank">
                         Resume
                     </a></li>
                 <li className="nav-item active">
